@@ -198,15 +198,15 @@ if __name__=="__main__":
     parser.add_argument('--keep_prob', type=float, default=1.0)
     parser.add_argument('--opt', type=str, default='ADAM')
     parser.add_argument('--region_names_file', type=str, 
-            default='../dataset/data_processed/region_names.txt')
+            default='dataset/data_processed/region_names.txt')
     parser.add_argument('--input_file', type=str, 
-            default='../dataset/data_processed/region_migration.csv')
+            default='dataset/data_processed/region_migration.csv')
     parser.add_argument('--label_file', type=str, 
-            default='../dataset/data_processed/infection.csv')
+            default='dataset/data_processed/infection.csv')
     parser.add_argument('--adj_mat_file', type=str, 
-            default='../dataset/data_processed/adj_matrix.npy')
+            default='dataset/data_processed/adj_matrix.npy')
     parser.add_argument('--submit_file', type=str, 
-            default='../dataset/train_data/submission.csv')
+            default='dataset/train_data/submission.csv')
     parser.add_argument('--output_path', type=str, default='../outputs/')
     parser.add_argument('--val_num', type=int, default=3)
     parser.add_argument('--test_num', type=int, default=1)
