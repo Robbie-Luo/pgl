@@ -2,3 +2,7 @@
 train_data/
 
 *.zip
+
+.vscode/
+
+.DS_Store
