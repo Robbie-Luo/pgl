@@ -206,7 +206,7 @@ if __name__=="__main__":
     parser.add_argument('--adj_mat_file', type=str, 
             default='dataset/data_processed/adj_matrix.npy')
     parser.add_argument('--submit_file', type=str, 
-            default='dataset/train_data/submission.csv')
+            default='dataset/data_processed/submission.csv')
     parser.add_argument('--output_path', type=str, default='../outputs/')
     parser.add_argument('--val_num', type=int, default=3)
     parser.add_argument('--test_num', type=int, default=1)
